@@ -8,14 +8,14 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class test1 implements CommandExecutor {
+public class hub implements CommandExecutor {
 
-    private Test test;
+    private hub hub;
 
-    public test1(Test test) {
-        this.test = test;
+    public hub(hub hub) {
+        this.hub = hub;
 
-        test.getCommand("spawn").setExecutor(this);
+        hub.getCommand("hub").setExecutor(this);
     }
 
 

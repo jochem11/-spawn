@@ -7,7 +7,6 @@ public final class Test extends JavaPlugin {
     @Override
     public void onEnable() {
         new test1(this);
-
     }
 
     @Override
