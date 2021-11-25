@@ -1,0 +1,6 @@
+name: Test
+version: '${project.version}'
+main: jochen.test.Test
+api-version: 1.17
+commands:
+  spawn:
